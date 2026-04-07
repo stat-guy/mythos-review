@@ -1,73 +1,37 @@
-# React + TypeScript + Vite
+# Mythos Review
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive infographic exploring **Claude Mythos Preview** — Anthropic's most capable frontier model, and the first they chose not to release publicly.
 
-Currently, two official plugins are available:
+## Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**[stat-guy.github.io/mythos-review](https://stat-guy.github.io/mythos-review/)**
 
-## React Compiler
+## What This Covers
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+On April 7, 2026, Anthropic published a 244-page system card and a red team blog post detailing Claude Mythos Preview's capabilities and the reasoning behind their unprecedented decision to withhold it from general availability. This site distills that information into seven interactive sections:
 
-## Expanding the ESLint configuration
+1. **Hero** — Key headline statistics at a glance
+2. **The Capability Leap** — Benchmark comparisons across coding, math, reasoning, science, and agentic tasks
+3. **The Cyber Awakening** — How Mythos Preview autonomously discovers and exploits zero-day vulnerabilities
+4. **Anatomy of an Autonomous Exploit** — Step-by-step walkthrough of the FreeBSD NFS RCE (CVE-2026-4747)
+5. **The Safety Calculus** — RSP threat assessments, safeguards comparison, and alignment metrics
+6. **What Does It Think?** — Model welfare data including psychiatrist assessments, affect distributions, and the model's own words
+7. **The Decision** — Why Anthropic withheld this model and what Project Glasswing means for cyber defense
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Sources
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- [Claude Mythos Preview System Card (PDF)](https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf)
+- [Red Team Blog Post](https://red.anthropic.com/2026/mythos-preview/)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Vite + React + TypeScript + Tailwind CSS + shadcn/ui + Recharts + Framer Motion
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+bun install
+bun run dev
+bun run vitest run  # 26 tests
+bun run build
 ```
