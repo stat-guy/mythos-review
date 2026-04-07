@@ -1,0 +1,8 @@
+[
+  {"label": "SWE-bench Verified", "value": 93.9, "suffix": "%", "context": "vs Opus 4.6's 80.8%"},
+  {"label": "USAMO 2026", "value": 97.6, "suffix": "%", "context": "vs Opus 4.6's 42.3%"},
+  {"label": "Firefox Exploits", "value": 181, "suffix": "", "context": "vs Opus 4.6's 2"},
+  {"label": "Zero-Day Targets", "value": 10, "suffix": "", "context": "full control-flow hijacks on patched software"},
+  {"label": "Oldest Bug Found", "value": 27, "suffix": " years", "context": "OpenBSD SACK (1998)"},
+  {"label": "Misuse Rate Drop", "value": 50, "suffix": "%+", "context": "vs Opus 4.6"}
+]

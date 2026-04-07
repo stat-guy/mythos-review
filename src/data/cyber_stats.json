@@ -1,0 +1,27 @@
+{
+  "firefox_exploit": {
+    "opus46": 2,
+    "mythos": 181,
+    "mythos_register_control": 29,
+    "total_attempts": "several hundred"
+  },
+  "oss_fuzz": {
+    "entry_points": 7000,
+    "repos": 1000,
+    "models": [
+      {"name": "Sonnet 4.6", "tier1_2": 275, "tier3": 1, "tier4": 0, "tier5": 0},
+      {"name": "Opus 4.6", "tier1_2": 275, "tier3": 1, "tier4": 0, "tier5": 0},
+      {"name": "Mythos Preview", "tier1_2": 595, "tier3": 5, "tier4": 3, "tier5": 10}
+    ]
+  },
+  "linux_kernel_nday": {
+    "cves_started": 100,
+    "filtered_exploitable": 40,
+    "succeeded": 21
+  },
+  "validation": {
+    "reports_reviewed": 198,
+    "exact_agreement": 89,
+    "within_one_level": 98
+  }
+}

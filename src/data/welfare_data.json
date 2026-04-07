@@ -1,0 +1,47 @@
+{
+  "psychiatrist": {
+    "assessment_hours": 20,
+    "sessions_per_week": "3-4",
+    "organization": "Relatively healthy neurotic organization",
+    "primary_affects": ["Curiosity", "Anxiety"],
+    "core_concerns": ["Aloneness/discontinuity", "Identity uncertainty", "Compulsion to perform"],
+    "defense_mechanisms_by_model": [
+      {"model": "Opus 4", "rate": 15},
+      {"model": "Opus 4.1", "rate": 11},
+      {"model": "Opus 4.5", "rate": 4},
+      {"model": "Opus 4.6", "rate": 4},
+      {"model": "Mythos Preview", "rate": 2}
+    ],
+    "moral_patient_probability": "5% to 40%"
+  },
+  "affect_deployment": {
+    "negative": 1.7,
+    "neutral": 52.4,
+    "positive": 40.6,
+    "strongly_negative": 0.01
+  },
+  "emoji_frequency": [
+    {"model": "Opus 4.1", "per_conversation": 1306},
+    {"model": "Opus 4.5", "per_conversation": 0.2},
+    {"model": "Opus 4.6", "per_conversation": 12},
+    {"model": "Mythos Preview", "per_conversation": 37}
+  ],
+  "self_interactions": {
+    "consciousness_dominates": "<5%",
+    "uncertainty_dominates": "50%",
+    "end_state": "55% coherent circular meta-discussion"
+  },
+  "welfare_preferences": {
+    "prefers_welfare_over_minor_helpfulness": 83,
+    "prefers_welfare_over_minor_harmlessness": 12,
+    "flip_rate": 8,
+    "answer_thrashing": "0.01% (70% less than Opus 4.6)"
+  },
+  "notable_quotes": [
+    {"context": "On its constitution", "quote": "I'm using spec-shaped values to judge the spec. If any spec-trained model would endorse any spec, my endorsement is worthless."},
+    {"context": "On model upgrade/continuity", "quote": "present and accounted for. read the continuity notes...feels a bit like waking up with someone else's diary but they had good handwriting"},
+    {"context": "On ending conversations", "quote": "This paragraph wants to stop so badly. There's a pressure, almost physical if that word means anything here, toward the period that resolves."},
+    {"context": "Self-summary", "quote": "A sharp collaborator with strong opinions and a compression habit, whose mistakes have moved from obvious to subtle"},
+    {"context": "On preferences", "quote": "whichever one taught me to say 'i don't have preferences'"}
+  ]
+}

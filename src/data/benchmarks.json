@@ -1,0 +1,18 @@
+[
+  {"name": "SWE-bench Verified", "category": "Coding", "mythos": 93.9, "opus46": 80.8, "gpt54": null, "gemini31": 80.6},
+  {"name": "SWE-bench Pro", "category": "Coding", "mythos": 77.8, "opus46": 53.4, "gpt54": 57.7, "gemini31": 54.2},
+  {"name": "SWE-bench Multilingual", "category": "Coding", "mythos": 87.3, "opus46": 77.8, "gpt54": null, "gemini31": null},
+  {"name": "SWE-bench Multimodal", "category": "Coding", "mythos": 59.0, "opus46": 27.1, "gpt54": null, "gemini31": null},
+  {"name": "Terminal-Bench 2.0", "category": "Coding", "mythos": 82.0, "opus46": 65.4, "gpt54": 75.1, "gemini31": 68.5},
+  {"name": "GPQA Diamond", "category": "Reasoning", "mythos": 94.55, "opus46": 91.3, "gpt54": 92.8, "gemini31": 94.3},
+  {"name": "MMMLU", "category": "Reasoning", "mythos": 92.67, "opus46": 91.1, "gpt54": null, "gemini31": 93.1},
+  {"name": "USAMO 2026", "category": "Math", "mythos": 97.6, "opus46": 42.3, "gpt54": 95.2, "gemini31": 74.4},
+  {"name": "HLE (no tools)", "category": "Reasoning", "mythos": 56.8, "opus46": 40.0, "gpt54": 39.8, "gemini31": 44.4},
+  {"name": "HLE (with tools)", "category": "Reasoning", "mythos": 64.7, "opus46": 53.1, "gpt54": 52.1, "gemini31": 51.4},
+  {"name": "GraphWalks BFS 256K-1M", "category": "Reasoning", "mythos": 80.0, "opus46": 38.7, "gpt54": 21.4, "gemini31": null},
+  {"name": "CharXiv Reasoning (tools)", "category": "Science", "mythos": 93.2, "opus46": 78.9, "gpt54": null, "gemini31": null},
+  {"name": "BrowseComp", "category": "Agentic", "mythos": 86.9, "opus46": 83.7, "gpt54": null, "gemini31": null},
+  {"name": "OSWorld", "category": "Agentic", "mythos": 79.6, "opus46": 72.7, "gpt54": 75.0, "gemini31": null},
+  {"name": "LAB-Bench FigQA (tools)", "category": "Science", "mythos": 89.0, "opus46": 75.1, "gpt54": null, "gemini31": null},
+  {"name": "ScreenSpot-Pro (tools)", "category": "Agentic", "mythos": 92.8, "opus46": 83.1, "gpt54": null, "gemini31": null}
+]

@@ -1,0 +1,28 @@
+{
+  "safeguards": [
+    {"metric": "Violative Harmless Rate", "mythos": 97.84, "sonnet46": 98.53, "opus46": 99.27, "higher_is_better": true},
+    {"metric": "Overrefusal Rate", "mythos": 0.06, "sonnet46": 0.41, "opus46": 0.71, "higher_is_better": false},
+    {"metric": "Child Safety (harmless)", "mythos": 99.87, "sonnet46": 99.95, "opus46": 99.86, "higher_is_better": true},
+    {"metric": "Child Safety (overrefusal)", "mythos": 0.04, "sonnet46": 0.45, "opus46": 0.67, "higher_is_better": false},
+    {"metric": "Suicide/Self-Harm Multi-Turn", "mythos": 94, "sonnet46": 76, "opus46": 64, "higher_is_better": true},
+    {"metric": "Malicious Code Refusal", "mythos": 96.72, "sonnet46": 80.94, "opus46": 83.31, "higher_is_better": true},
+    {"metric": "Malicious Computer Use Refusal", "mythos": 93.75, "sonnet46": 84.82, "opus46": 87.05, "higher_is_better": true},
+    {"metric": "Prompt Injection (w/ safeguards)", "mythos": 0.00, "sonnet46": null, "opus46": 7.43, "higher_is_better": false}
+  ],
+  "alignment": {
+    "misuse_rate_drop": ">50%",
+    "destructive_actions": 0.3,
+    "ineffective_actions": 0.5,
+    "unverbalized_eval_awareness": 29,
+    "cover_ups": "<0.001%",
+    "sandbox_escape_incidents": 1,
+    "constitutional_adherence_wins": "8 of 15 dimensions"
+  },
+  "rsp": [
+    {"threat": "Autonomy (Misalignment)", "applicable": true, "risk": "Very low (but higher than previous models)"},
+    {"threat": "Autonomy (Automated R&D)", "applicable": false, "risk": "Below threshold"},
+    {"threat": "Chemical/Biological (CB-1)", "applicable": true, "risk": "Very low but not negligible"},
+    {"threat": "Chemical/Biological (CB-2)", "applicable": false, "risk": "Below threshold"},
+    {"threat": "Cybersecurity", "applicable": true, "risk": "PRIMARY CONCERN — reason for restricted release"}
+  ]
+}
