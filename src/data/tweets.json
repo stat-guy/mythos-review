@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "author": "Alex Albert",
+    "handle": "@alexalbert__",
+    "affiliation": "Anthropic",
+    "avatar_fallback": "AA",
+    "text": "We released Claude Opus 4.6 just two months ago. Today we're sharing some info on our new model, Claude Mythos Preview.",
+    "url": "https://x.com/alexalbert__/status/2041579938537775160",
+    "category": "official"
+  },
+  {
+    "id": 2,
+    "author": "Sam Bowman",
+    "handle": "@sleepinyourhat",
+    "affiliation": "Anthropic",
+    "avatar_fallback": "SB",
+    "text": "Mythos Preview seems to be the best-aligned model out there on basically every measure we have. But it also likely poses more misalignment risk than any model we've used: Its new capabilities significantly increase the risk from any bad behavior.",
+    "url": "https://x.com/sleepinyourhat/status/2041584799929004045",
+    "category": "official"
+  },
+  {
+    "id": 3,
+    "author": "Kevin Roose",
+    "handle": "@kevinroose",
+    "affiliation": "New York Times",
+    "avatar_fallback": "KR",
+    "text": "NEWS: Anthropic's new model, Claude Mythos, is so powerful that it is not releasing it to the public. Instead, it is starting a 40-company coalition, Project Glasswing, to allow cybersecurity defenders a head start in locking down critical software.",
+    "url": "https://x.com/kevinroose/status/2041577176915702169",
+    "category": "journalist"
+  },
+  {
+    "id": 4,
+    "author": "Kelsey Piper",
+    "handle": "@KelseyTuoc",
+    "affiliation": "Vox",
+    "avatar_fallback": "KP",
+    "text": "An underrated feature of this situation: a private company now has incredibly powerful zero-day exploits of almost every software project you've heard of. And Hegseth and Emil Michael have ordered the government not to in any capacity work with Anthropic.",
+    "url": "https://x.com/KelseyTuoc/status/2041599713972253067",
+    "category": "journalist"
+  },
+  {
+    "id": 5,
+    "author": "The Rundown AI",
+    "handle": "@TheRundownAI",
+    "affiliation": "AI Newsletter",
+    "avatar_fallback": "TR",
+    "text": "A first look at Claude Mythos Preview, the model initially described in a leaked Anthropic draft as \"by far the most powerful AI model we've ever developed.\" So powerful, it's not getting released to the public.",
+    "url": "https://x.com/TheRundownAI/status/2041598684102610961",
+    "category": "media"
+  },
+  {
+    "id": 6,
+    "author": "Anthropic",
+    "handle": "@AnthropicAI",
+    "affiliation": "Official",
+    "avatar_fallback": "A",
+    "text": "Introducing Project Glasswing: an urgent initiative to help secure the world's most critical software. It's powered by our newest frontier model, Claude Mythos Preview, which can find software vulnerabilities better than all but the most skilled humans.",
+    "url": "https://x.com/AnthropicAI/status/2041578392852517128",
+    "category": "official"
+  },
+  {
+    "id": 7,
+    "author": "Alex Finn",
+    "handle": "@AlexFinn",
+    "affiliation": "Tech Commentator",
+    "avatar_fallback": "AF",
+    "text": "Good news: Anthropic just revealed Mythos — the most powerful AI model ever made. Bad news: you'll never be able to use it. I get it. It's so powerful that it could exploit cybersecurity. But I hate it. I don't love that a company gets to hand select who gets to use the best.",
+    "url": "https://x.com/AlexFinn/status/2041602048115011738",
+    "category": "critic"
+  },
+  {
+    "id": 8,
+    "author": "Peter Wildeford",
+    "handle": "@peterwildeford",
+    "affiliation": "AI Policy Researcher",
+    "avatar_fallback": "PW",
+    "text": "ANTHROPIC: \"Claude Mythos Preview's large increase in capabilities has led us to decide not to make it generally available.\"",
+    "url": "https://x.com/peterwildeford/status/2041590779114565908",
+    "category": "analyst"
+  },
+  {
+    "id": 9,
+    "author": "santi",
+    "handle": "@santtiagom_",
+    "affiliation": "Developer",
+    "avatar_fallback": "S",
+    "text": "Anthropic acaba de anunciar Project Glasswing. Están usando un modelo nuevo (Claude Mythos Preview) que ya puede: encontrar vulnerabilidades críticas en software real, desarrollar exploits, en muchos casos hacerlo de forma autónoma.",
+    "url": "https://x.com/santtiagom_/status/2041583793488728277",
+    "category": "developer"
+  },
+  {
+    "id": 10,
+    "author": "Felix Rieseberg",
+    "handle": "@felixrieseberg",
+    "affiliation": "Anthropic Engineer",
+    "avatar_fallback": "FR",
+    "text": "Let's talk about Claude Mythos Preview. It's pretty hard to overstate what a step function change this model has been inside Anthropic. Its ability to identify security vulnerabilities feels like a meaningful shift in model capabilities. To me, it feels like another GPT-3 moment.",
+    "url": "https://x.com/felixrieseberg/status/2041586309966524919",
+    "category": "official"
+  }
+]
