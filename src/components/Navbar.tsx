@@ -8,6 +8,7 @@ const sections = [
   { id: "safety", label: "Safety" },
   { id: "welfare", label: "Welfare" },
   { id: "decision", label: "The Decision" },
+  { id: "reactions", label: "Reactions" },
 ];
 
 export function Navbar() {

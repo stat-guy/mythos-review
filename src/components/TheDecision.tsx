@@ -7,7 +7,6 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
 
 /* ---------- Pillar Cards ---------- */
 
@@ -191,34 +190,6 @@ export function TheDecision() {
         </p>
       </motion.div>
 
-      {/* Footer */}
-      <Separator className="mx-auto mt-14 max-w-3xl" />
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={inView ? { opacity: 1 } : {}}
-        transition={{ duration: 0.5, delay: 0.6 }}
-        className="mx-auto mt-6 flex max-w-3xl flex-col items-center gap-2 text-center text-xs text-muted-foreground"
-      >
-        <p>April 7, 2026</p>
-        <div className="flex gap-4">
-          <a
-            href="https://www.anthropic.com/research/claude-mythos-preview-system-card"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline underline-offset-2 transition-colors hover:text-foreground"
-          >
-            Full System Card
-          </a>
-          <a
-            href="https://www.anthropic.com/research/claude-mythos-preview-red-team"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline underline-offset-2 transition-colors hover:text-foreground"
-          >
-            Red Team Blog Post
-          </a>
-        </div>
-      </motion.div>
     </section>
   );
 }

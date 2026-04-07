@@ -128,3 +128,25 @@
     @apply font-sans;
     }
 }
+
+/* react-tweet dark mode */
+.dark [data-theme="light"] {
+  --tweet-bg-color: var(--card);
+  --tweet-border: var(--border);
+  --tweet-font-color: oklch(0.985 0 0);
+  --tweet-font-color-secondary: oklch(0.708 0 0);
+  --tweet-color-blue-secondary: oklch(0.488 0.243 264.376);
+}
+
+.tweet-embed {
+  min-width: 0;
+}
+
+.tweet-embed > div {
+  margin: 0 !important;
+}
+
+/* Ensure tweet cards fill their grid cell */
+.tweet-embed [data-tweet-id] {
+  margin: 0 !important;
+}

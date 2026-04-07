@@ -16,6 +16,13 @@ export default defineConfig({
     environment: "jsdom",
     globals: true,
     setupFiles: ["./src/test/setup.ts"],
-    css: true,
+    css: {
+      modules: { classNameStrategy: "non-scoped" },
+    },
+    server: {
+      deps: {
+        inline: ["react-tweet"],
+      },
+    },
   },
 })
