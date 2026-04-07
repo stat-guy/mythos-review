@@ -4,7 +4,8 @@ import { Tweet } from "react-tweet";
 import tweets from "@/data/tweets.json";
 
 function extractTweetId(url: string): string {
-  const parts = url.split("/");
+  const { pathname } = new URL(url);
+  const parts = pathname.split("/").filter(Boolean);
   return parts[parts.length - 1];
 }
 

@@ -44,6 +44,15 @@ describe("ReactionsSection", () => {
     expect(authors).toContain("Alex Finn");
   });
 
+  it("tweet URLs produce clean numeric IDs (no query params or trailing slashes)", () => {
+    for (const tweet of tweets) {
+      const { pathname } = new URL(tweet.url);
+      const parts = pathname.split("/").filter(Boolean);
+      const id = parts[parts.length - 1];
+      expect(id).toMatch(/^\d+$/);
+    }
+  });
+
   it("tweets.json has no more than 3 Anthropic employees (not counting official account)", () => {
     const anthropicPeople = tweets.filter(
       (t) =>
